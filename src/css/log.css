@@ -1,0 +1,298 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.rtop{
+    width: 100%;
+    height: 113px;
+}
+.head{
+    width: 990px;
+    height: 113px;
+    margin: auto;
+}
+.head a{
+    display: block;
+    width: 180px;
+    height: 113px;
+}
+
+.rbottom{
+    width: 100%;
+    height: 440px;
+   
+}
+.bottom{
+    position: relative;
+    background: #fff url(../images/log/big.png) no-repeat left top;
+    width: 988px;
+    min-height: 417px;
+    color: #5e5e5e;
+    border: #e6e6e6 1px solid;
+    border-top: #0083ce 2px solid;
+    -webkit-box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+    -moz-box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+    box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+    padding-bottom: 20px; 
+    margin: auto;
+}
+.top{
+    width: 428px;
+    height: 440px;
+
+
+}
+.tab_box{
+    height: 25px;
+    padding: 10px 0;
+    margin-top: 2px;
+    border-bottom: 1px solid #e2e2e2;
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+}
+
+.item{
+    position: relative;
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+.item a{
+    display: block;
+    position: relative;
+    margin: 0 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: black
+}
+
+/* .item a:before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    background-color: #2C9EE0;
+} */
+/* .pu a:before{
+    display: none;
+} */
+.putong{
+    width: 368px;
+    height: 403px;
+    padding: 0 30px;
+    /* display: none; */
+}
+.lg_title{
+    /* font-size: 16px; */
+    padding: 0;
+    font: 16px "microsoft yahei";
+    margin: 13px 0;
+    color: #5e5e5e;
+}
+.lg_title span{
+    float: right;
+    font-size: 12px;
+    margin-top: 7px;
+    font-family: \5b8b\4f53;
+} 
+.form{
+    width: 368px;
+    height: 369px;
+}
+.reg_row{
+    min-height: 68px;
+    _height: 68px;
+    color: #5e5e5e;
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+    width: 340px;
+    position: relative;
+}
+.form-control{
+    display: block;
+    width: 286px;
+    height: 26px;
+    padding: 6px 12px 6px 40px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    -webkit-appearance: none;
+}
+.a1{
+    background: url(../images/reg/touxiang.png) no-repeat 0 ;
+}
+.a2{
+    background: url(../images/reg/mima.png) no-repeat 0 ;
+}
+.verify_box{
+    height: 60px;
+    min-height: 60px;
+    width: 340px;
+    position: relative;
+}
+.shoujihao{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+.u_verify{
+    width: 130px;
+    margin-right: 10px;
+    padding-left: 10px;
+    float: left;
+    display: block;
+    height: 26px;
+    padding: 6px 12px 6px 30px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    -webkit-appearance: none;
+}
+.ig{
+    margin-left: 10px;
+    float: left;
+    width: 100px;
+    height: 40px;
+    background: #ccc;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+.verifylink{
+    float: left;
+    width: 36px;
+    height: 40px;
+    margin-left: 10px;
+    line-height: 40px;
+    color: #0083ce;
+}
+.yzm{
+    display: none;
+}
+.ck{
+    /* float: left; */
+    margin-left: -20px;
+    background-color: initial;
+    cursor: default;
+    display: inline-block;
+    margin-left: 5px;
+}
+.two_week{
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+}
+#btn,#btn1{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: #0099F1;
+    width: 340px;
+    border-bottom: #0083ce 2px solid;
+    color: #fff;
+    font: 18px "microsoft yahei";
+}
+.protocal_warm{
+    padding-top: 10px;
+    display: block;
+    color: #5e5e5e;
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+}
+.protocal_warm span a{
+    color: #0083ce;
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+}
+.bb{
+    margin-bottom:42px;
+}
+.simplefooter{
+    width: 980px;
+    height: 65px;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    font: 12px "Lucida Grande",tahoma,arial,\5b8b\4f53;
+    color: #5E5E5E
+}
+.shouji{
+    width: 368px;
+    height: 403px;
+    padding: 0px 30px;
+    display: none;
+}
+.form_group{
+    position: relative;
+    padding-bottom: 35px;
+    color: #5e5e5e;
+}
+.phone{
+    width: 270px;
+    display: block;
+    padding: 10px;
+    padding-left: 42px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    line-height: 20px;
+}
+.p1{
+    background: url(../images/log/logo_phone.png) 18px center no-repeat;
+}
+.p2{
+    background: url(../images/log/logo_key.png) 18px center no-repeat;
+}
+.lbs{
+    display: block;
+    margin-right: 10px;
+    font: 12px "Lucida Grande", tahoma, arial, \5b8b\4f53;
+}
+.checknum{
+    width: 140px;
+    padding-left: 42px;
+}
+.check_btn{
+    display: block;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #C6E1F0;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #5CBAF0;
+    background-color: #F1FAFF;
+}
+.simplefooter>p{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font: 12px "Lucida Grande",tahoma,arial,\5b8b\4f53;
+    color: #5E5E5E;
+}
+.simplefooter a{
+    display: inline-block;
+    color: #666;
+    margin: 0 8px;
+    cursor: pointer;
+}

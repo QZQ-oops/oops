@@ -1,0 +1,32 @@
+#yy{
+   width: 100%;
+   height: 100%;
+   .head{
+       width: 100%;
+       height: 168px;
+       margin: auto;
+       .head1{
+           height: 36px;
+           width: 100%;
+           background: #f1f1f1;
+           .header{
+               width: 1190px;
+               height: 36px;
+               margin: auto;
+               background: pink;
+               position: relative;
+               .header1{
+                   width: 90px;
+                   height: 36px;
+               }
+               .header2{
+                  height: 36px;
+               }
+           }
+       }
+       .head2{
+           height: 121px;
+           width:1190px;
+       }
+   }
+}
